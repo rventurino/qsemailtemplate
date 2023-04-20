@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    header img{
+        height: 45px;
+    }
+    .container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+    span{
+        font-weight: bold;
+    }
+    .NoDecoration{
+        list-style-type: none;
+    }
+</style>
+<body>
+    <header>
+        <img src="Qwickserve REd Black.png" alt="">
+        <h1>Menu Structure</h1>
+    </header>
+    <br>
+    <section class="category">
+        <h2>Categories</h2>
+        <div class="container">
+            <img src="Category.jpg" alt="">
+            <div>
+                <ul>
+                    <li>Categories are the first thing a customer will see on your ordering terminal.</li>
+                    <br>
+                    <li>Typically, these are general areas of a menu, for instance “sandwiches” or “lunch menu” could be names for a Category. </li>
+                    <br>
+                    <li>Categories may contain menu items and/or additional sub-categories</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Sub Categories</h2>
+        <div class="container">
+            <img src="subcategory.jpg" alt="">
+            <div>
+                <ul>
+                    <li>Once your customer picks a category, they can optionally be presented with sub-categories, which will contain recipe items.</li>
+                    <br>
+                    <li>For example, the <span>Category</span> “Sandwiches” might contain the following Sub-Categories: </li>
+                    <li class="NoDecoration">
+                        <ul>
+                            <li>Burgers</li>
+                            <li>Fried Chicken Sandwiches</li>
+                            <li>Cold Sandwiches</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="sets">
+        <h2>Sets</h2>
+        <div class="container">
+            <img src="sets.jpg" alt=""  style="height: 200px; width: auto;">
+            <ul>
+                <li>Sets are the last thing your customer will see once they have chosen a recipe item to order. </li>
+                <br>
+                <li>Sets allow the customer to add free or up-charged items to an individual recipe item. </li>
+                <br>
+                <li>Examples of Sets could be:</li>
+                <li class="NoDecoration">
+                    <ul>
+                        <li>Dipping Cups</li>
+                        <li>Sandwich Toppings</li>
+                        <li>Upgrades such as adding sides to an order</li>
+                    </ul>
+
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
